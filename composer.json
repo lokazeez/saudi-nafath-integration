@@ -1,0 +1,29 @@
+{
+    "name": "mohamad-zatar/saudi-nafath-integration",
+    "description": "A Laravel package for integrating with the Saudi Nafath service, providing seamless identity verification and authentication solutions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamad Zatar",
+            "email": "lokasees@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MohamadZatar\\Nafath\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MohamadZatar\\Nafath\\NafathServiceProvider"
+            ]
+        }
+    }
+}
