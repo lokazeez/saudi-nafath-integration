@@ -26,5 +26,6 @@
                 "MohamadZatar\\Nafath\\NafathServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
