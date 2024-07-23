@@ -25,6 +25,7 @@ class NafathController extends \Illuminate\Routing\Controller
             'id' => $request->input('id_number'),
             'action' => 'SpRequest',
             'service' => 'Login',
+            'callbackUrl' => config('nafath.NAFATH_CALLBACK_URL'),
         ];
 
         try {
